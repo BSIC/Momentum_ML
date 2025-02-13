@@ -1,7 +1,7 @@
 import yfinance as yf
 
-# Download 10-Year Treasury Yield daily data
-data = yf.download('^TNX', start='1995-01-01', end='2024-12-31')['Close']
+# Download 3-Months Treasury Yield daily data
+data = yf.download('^IRX', start='1995-01-01', end='2024-12-31')['Close']
 print(data)
 
 # Save data to a CSV file
